@@ -73,5 +73,13 @@ public class User implements Serializable  {
         this.amount -= amount;
         }
     }
+
+    public void showdetails(){
+        System.out.println("username: "+getusername());
+        System.out.println("account no: "+getaccount_no());
+        System.out.println("password: "+getpassword());
+        System.out.println("email: "+getemail());
+        System.out.println("amount: "+getbalance());
+    }
 }
 
